@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67ea9c60-1bc2-4a3c-84e2-063d7c1be293" name="Default Changelist" comment="" />
+    <list default="true" id="67ea9c60-1bc2-4a3c-84e2-063d7c1be293" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_13_212334_articles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/ArticleSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/Homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/Homepage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/homepage.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +21,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -141,6 +155,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Laravel1Jet" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -159,7 +174,10 @@
       <updated>1607804231030</updated>
       <workItem from="1607804232109" duration="2080000" />
       <workItem from="1607806316023" duration="1295000" />
-      <workItem from="1607880299762" duration="9381000" />
+      <workItem from="1607880299762" duration="9667000" />
+      <workItem from="1607894079716" duration="2815000" />
+      <workItem from="1607900319550" duration="6387000" />
+      <workItem from="1607906855922" duration="1770000" />
     </task>
     <servers />
   </component>
@@ -175,10 +193,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="475" y="75" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1607889247846" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1607805654370">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1607907178469">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1607805654370" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1607907178469" />
     <state x="604" y="356" key="NewPhpFileDialog" timestamp="1607892534710">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
