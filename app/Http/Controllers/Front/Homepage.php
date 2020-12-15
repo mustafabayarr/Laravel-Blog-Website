@@ -3,12 +3,14 @@
 namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
+use Dotenv\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 //Models
 use App\Models\Category;
 use App\Models\Article;
 use App\Models\Page;
+use App\Models\Contact;
 
 use function Sodium\increment;
 
@@ -46,5 +48,20 @@ class Homepage extends Controller
         $page=Page::whereSlug($slug)->first() ?? abort(403,'Böyle bir sayfa bulunamadı');
         $data['page']=$page;
         return view('Front.page',$data);
+    }
+
+    public function contact(){
+        return view('front.contact');
+    }
+
+    public function contactpost(Request $request){
+
+        $contact = new Contact();
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->topic = $request->topic;
+        $contact->message = $request->message;
+        $contact->save();
+        return redirect()->route('contact')->with('success','Mesajınız iletilmistir.');
     }
 }

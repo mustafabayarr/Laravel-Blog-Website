@@ -14,9 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/','App\Http\Controllers\Front\Homepage@index')->name('homepage');
+Route::get('/iletisim','App\Http\Controllers\Front\Homepage@contact')->name('contact'); // sabit tanımladığımız url leri en üste koymamız lazım
+Route::post('/iletisim','App\Http\Controllers\Front\Homepage@contactpost')->name('contact.post');
 Route::get('/kategori/{category}','App\Http\Controllers\Front\Homepage@category')->name('category');
 Route::get('/{category}/{slug}','App\Http\Controllers\Front\Homepage@single')->name('single');
 Route::get('/{sayfa}','App\Http\Controllers\Front\Homepage@page')->name('page');
+
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

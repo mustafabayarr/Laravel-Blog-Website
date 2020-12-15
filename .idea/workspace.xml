@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ea9c60-1bc2-4a3c-84e2-063d7c1be293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_15_032256_pages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/PageSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/category.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/page.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/single.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/widgets/articleList.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_15_060313_contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/front/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/Homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/Homepage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/homepage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layouts/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/widgets/categoryWidget.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/widgets/categoryWidget.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +175,7 @@
       <workItem from="1607894079716" duration="2815000" />
       <workItem from="1607900319550" duration="6387000" />
       <workItem from="1607906855922" duration="2030000" />
-      <workItem from="1607982102997" duration="20667000" />
+      <workItem from="1607982102997" duration="26418000" />
     </task>
     <task id="LOCAL-00001" summary="the articles were updated and the database was linked">
       <created>1607908784794</created>
@@ -194,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607908784794</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added categories and pages">
+      <created>1608009284501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608009284501</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +199,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="the articles were updated and the database was linked" />
-    <option name="LAST_COMMIT_MESSAGE" value="the articles were updated and the database was linked" />
+    <MESSAGE value="added categories and pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added categories and pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="578" y="312" key="#Composer" timestamp="1607804290126">
@@ -217,21 +215,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.864@0.0.1536.864" timestamp="1608003284795" />
-    <state x="393" y="1" key="CommitChangelistDialog2" timestamp="1607908784059">
+    <state x="393" y="1" key="CommitChangelistDialog2" timestamp="1608009283745">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="1" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1607908784059" />
+    <state x="393" y="1" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608009283745" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1607907178469">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1607907178469" />
-    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1608007165527">
+    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1608010295234">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1608007165527" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607908791481">
+    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1608010295234" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1608009330137">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1607908791481" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608009330137" />
   </component>
 </project>
