@@ -1,16 +1,19 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+/*
+|--------------------------------------------------------------------------
+| Backend Routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('admin/panel','App\Http\Controllers\Back\Dashboard@index')->name('admin.dashboard');
+Route::get('admin/giris','App\Http\Controllers\Back\Auth@login')->name('admin.login');
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Frontend Routes
 |--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
 */
 
 Route::get('/','App\Http\Controllers\Front\Homepage@index')->name('homepage');
@@ -22,6 +25,4 @@ Route::get('/{sayfa}','App\Http\Controllers\Front\Homepage@page')->name('page');
 
 
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+
